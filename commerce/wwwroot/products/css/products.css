@@ -1,0 +1,36 @@
+body{
+    background-color: #dad3d3d3;
+    font-family: sans-serif;
+    margin-top: 6%;
+}
+
+.card{
+    display: inline;
+}
+
+.list-group{
+    margin-left: 100px;
+}
+
+.list-group-item:hover{
+    background-color: #3f1628;
+    color: white;    
+}
+
+.card-img-bottom{
+    width: 255px;
+    height: 255px;
+    margin: 0%;
+}
+
+.button{
+    background-color: #3f1628; 
+    width: 50%;
+    border-radius: 30px;
+    padding: 10px;
+    color: white;
+    margin-left: 50%;
+    font-size: 17px;
+    border: 0px;
+    outline: 0;
+}

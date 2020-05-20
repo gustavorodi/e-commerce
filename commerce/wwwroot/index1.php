@@ -1,3 +1,3 @@
 <?php
-    require_once("templete.php")
+    require_once("templetes/templete.php");
 ?>
