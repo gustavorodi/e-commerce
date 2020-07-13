@@ -1,0 +1,101 @@
+body{
+    background-color: #96005aaf;
+    font-family: sans-serif;
+}
+
+#menu ul {
+    text-align: center;
+    background-color: white; 
+    width: 53.70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7.5%;
+    padding-left:0;
+    padding-right:0;
+    font-weight: bold;
+}
+#menu ul li {
+    display: inline; 
+    font-family: sans-serif;
+}
+
+#menu ul li a {
+    padding: 2% 4.62%;
+    display: inline-block;
+
+    /* visual do link */
+    background-color:white;
+    color: #333;
+    text-decoration: none;
+}
+#menu a:hover{
+    background-color: #3f1628;
+    color: white;    
+}
+
+.item1 { grid-area: img; }
+.item2 { grid-area: main; }
+.item3 { grid-area: price; }
+.item4 { grid-area: carri;}
+.item5 { grid-area: comp; }
+
+.grid-container {
+
+    display: grid;
+    width: 53.70%;
+    margin: auto;
+    grid-template-areas:
+        'img main main main main price'
+        'img main main main main carri'
+        'img main main main main comp';
+    grid-gap: 0px;
+    margin-top: 1%;
+}
+
+.item1{
+    padding-right: 100%;
+}
+
+.grid-container > div {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+.card-img-top{
+    width: 200px;
+    height: 200px;
+    margin-left: 0;
+    margin-top: 1.5%;
+    margin-left: 1.5%;
+    border-radius: 100px;
+    box-shadow: 1px 1px 5px #a9a9a9;
+}
+
+.card-price{
+    margin-left: 0%;
+    font-size: 25px;
+}
+
+.button{
+    background-color: #3f1628; 
+    width: 100%;
+    border-radius: 30px;
+    padding: 10px;
+    color: white;
+    margin-left: 0%;
+    font-size: 17px;
+    border: 0px;
+    margin-top: 1%;
+}
+
+.footer{
+    height: 15px;
+    background-color: #3f1628;
+    position: relative;
+    margin-left: -0.4%;
+    margin-top: 10%;
+    padding: 0;
+    bottom: 0;
+    width: 100%;
+}   
